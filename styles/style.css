@@ -71,7 +71,7 @@ p {
 
 .navigation__link {
   color: var(--grey-dark);
-  font-weight: 600;
+  font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   padding-left: 2rem;
