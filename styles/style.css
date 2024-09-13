@@ -276,6 +276,8 @@ padding-right: 1.5rem;
 
 .facebook-link {
   color: var(--orange-dark);
+position:relative;
+left: 11rem;
 }
 
 /* Sidebar */
