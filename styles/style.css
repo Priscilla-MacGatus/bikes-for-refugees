@@ -213,12 +213,37 @@ right:0.1rem;
 
 .article {
   margin-bottom: 1rem;
-  border:0.08rem solid lightgrey;
+  border:0.13rem solid #e0e0e0;
+  border-radius: 0.3rem;
   padding-top: 2.5rem;
   width: 20.5rem;
   position: relative;
   bottom:2rem;
 }
+
+
+.article1{ border:0.13rem solid#e0e0e0;
+  padding:1rem;
+  width: 20.9rem;
+  position: relative;
+  bottom: 2.12rem;
+  border-radius: 0.3rem;
+}
+ 
+
+
+
+.article2{ border:0.13rem solid #e0e0e0;
+  padding:1rem;
+  width: 25rem;
+  height: 10.1rem ;
+  position:relative;
+  bottom:14.4rem;
+  left:24.2rem;
+  border-radius: 0.3rem;
+}
+
+
 
 
 .article__title {
