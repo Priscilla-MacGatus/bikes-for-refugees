@@ -11,6 +11,7 @@
    --orange-dark: #c05326;
    --orange-light: #f7eae4;
    --white: #fff;
+   --whitesmoke: whitesmoke;
  }
 
 body {
@@ -63,7 +64,7 @@ p {
 .navigation__list {
   display: flex;
   list-style: none;
-  :hover{color:#c05326;}
+  :hover{color:var(--orange-dark);}
 }
 
 .navigation__item {
@@ -100,8 +101,8 @@ p {
   /* INSERT BUTTON STYLES HERE */
 
   .button1 
-  {background-color:  #c05326;
-  color:white;
+  {background-color: var(--orange-dark);
+  color:var(--white);
   font-weight: 550;
   width:7rem; 
   height: 2rem;
@@ -113,8 +114,8 @@ p {
 
 
 
-.button1:hover{background-color:#fff;
-  color: #c05326;
+.button1:hover{background-color:var(--white);
+  color: var(--orange-dark);
 }
 
 
@@ -122,8 +123,8 @@ p {
 
 
 .button2{
-  background-color:  #c05326;
-  color:white;
+  background-color: var(--orange-dark);
+  color:var(--white);
   font-weight: 550;
   width:9.5rem; 
   height: 2rem;
@@ -134,8 +135,8 @@ position: relative;top:2rem; right:0.1rem;
 }
 
 
-.button2:hover{background-color:#fff;
-  color: #c05326;
+.button2:hover{background-color:var(--white);
+  color: var(--orange-dark);
 }
 
 
@@ -146,8 +147,8 @@ position: relative;top:2rem; right:0.1rem;
 
 
 .button3 {
-background-color:  whitesmoke;
- color:#c05326;
+background-color: var(--whitesmoke);
+ color:var(--orange-dark);
  font-weight: 550;
  width:6rem; 
  height: 2rem;
@@ -160,8 +161,8 @@ background-color:  whitesmoke;
 
 
 
-.button3:hover{background-color:#c05326;
-  color: #fff;
+.button3:hover{background-color:var(--orange-dark);
+  color: var(--white);
 }
 
 
@@ -202,7 +203,7 @@ margin-bottom: 5rem;
 .hero h1 {
   margin-bottom: 1rem;
   font-size: 2.5rem;
-  color:white;
+  color:var(--white);
   position: relative; 
 top:5rem;
 right:0.1rem;
@@ -211,7 +212,7 @@ right:0.1rem;
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #fff;
+  color: var(--white);
   position: relative; 
 top:5rem;
 right:0.1rem;
@@ -249,7 +250,7 @@ right:0.1rem;
 
 .article {
   margin-bottom: 1rem;
-  border:0.13rem solid #e0e0e0;
+  border:0.13rem solid var(--grey-light);
   border-radius: 0.3rem;
   padding-top: 2.5rem;
   width: 20.5rem;
@@ -258,7 +259,7 @@ right:0.1rem;
 }
 
 
-.article1{ border:0.13rem solid#e0e0e0;
+.article1{ border:0.13rem solid var(--grey-light);
   padding:1rem;
   width: 20.9rem;
   position: relative;
@@ -269,7 +270,7 @@ right:0.1rem;
 
 
 
-.article2{ border:0.13rem solid #e0e0e0;
+.article2{ border:0.13rem solid  var(--grey-light);
   padding:1rem;
   width: 25rem;
   height: 10.1rem ;
