@@ -5,14 +5,14 @@
  * 
  */
 
- :root {
-   --grey-dark: #292b2c;
-   --grey-light: #e4e4e4;
-   --orange-dark: #c05326;
-   --orange-light: #f7eae4;
-   --white: #fff;
-   --whitesmoke: whitesmoke;
- }
+:root {
+  --grey-dark: #292b2c;
+  --grey-light: #e4e4e4;
+  --orange-dark: #c05326;
+  --orange-light: #f7eae4;
+  --white: #fff;
+  --whitesmoke: whitesmoke;
+}
 
 body {
   margin: 0;
@@ -25,7 +25,12 @@ button {
   font-size: 1rem;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -64,7 +69,9 @@ p {
 .navigation__list {
   display: flex;
   list-style: none;
-  :hover{color:var(--orange-dark);}
+  :hover {
+    color: var(--orange-dark);
+  }
 }
 
 .navigation__item {
@@ -78,7 +85,6 @@ p {
   text-decoration: none;
   padding-left: 2rem;
 }
-
 
 /* Text styles */
 
@@ -95,80 +101,62 @@ p {
   border-left-color: var(--orange-dark);
 }
 
-
 /* Buttons */
 
-  /* INSERT BUTTON STYLES HERE */
+/* INSERT BUTTON STYLES HERE */
 
-  .button1 
-  {background-color: var(--orange-dark);
-  color:var(--white);
-  font-weight: 550;
-  width:7rem; 
-  height: 2rem;
-  border-radius:0.2rem;
-  border: 0.01rem  solid transparent;
-  
-}
-
-
-
-
-.button1:hover{background-color:var(--white);
-  color: var(--orange-dark);
-}
-
-
-
-
-
-.button2{
+.button1 {
   background-color: var(--orange-dark);
-  color:var(--white);
+  color: var(--white);
   font-weight: 550;
-  width:9.5rem; 
+  width: 7rem;
   height: 2rem;
-  border-radius:0.2rem;
-  border: 0.01rem  solid transparent;
-  margin-bottom: 4rem;
-position: relative;top:2rem; right:0.1rem;
+  border-radius: 0.2rem;
+  border: 0.01rem solid transparent;
 }
 
-
-.button2:hover{background-color:var(--white);
+.button1:hover {
+  background-color: var(--white);
   color: var(--orange-dark);
 }
 
+.button2 {
+  background-color: var(--orange-dark);
+  color: var(--white);
+  font-weight: 550;
+  width: 9.5rem;
+  height: 2rem;
+  border-radius: 0.2rem;
+  border: 0.01rem solid transparent;
+  margin-bottom: 4rem;
+  position: relative;
+  top: 2rem;
+  right: 0.1rem;
+}
 
-
-
-
-
-
+.button2:hover {
+  background-color: var(--white);
+  color: var(--orange-dark);
+}
 
 .button3 {
-background-color: var(--whitesmoke);
- color:var(--orange-dark);
- font-weight: 550;
- width:6rem; 
- height: 2rem;
- border-radius:0.2rem;
- border: 0.01rem  solid transparent;
- margin: 3rem 0rem  4rem 0rem; 
- position: relative;top:2rem; right:0.1rem;
+  background-color: var(--whitesmoke);
+  color: var(--orange-dark);
+  font-weight: 550;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 0.2rem;
+  border: 0.01rem solid transparent;
+  margin: 3rem 0rem 4rem 0rem;
+  position: relative;
+  top: 2rem;
+  right: 0.1rem;
 }
 
-
-
-
-.button3:hover{background-color:var(--orange-dark);
+.button3:hover {
+  background-color: var(--orange-dark);
   color: var(--white);
 }
-
-
-
-
-
 
 /* Content */
 
@@ -192,32 +180,31 @@ background-color: var(--whitesmoke);
 /* hero */
 
 .hero {
-  background-image:url(https://raw.githubusercontent.com/CodeYourFuture/bikes-for-refugees/main/images/header-bike.jpg);
+  background-image: url(https://raw.githubusercontent.com/CodeYourFuture/bikes-for-refugees/main/images/header-bike.jpg);
   background-color: var(--grey-light);
-padding-left:2rem;
-height:19.7rem;
-width:49.5rem;
-margin-bottom: 5rem;
+  padding-left: 2rem;
+  height: 19.7rem;
+  width: 49.5rem;
+  margin-bottom: 5rem;
 }
 
 .hero h1 {
   margin-bottom: 1rem;
   font-size: 2.5rem;
-  color:var(--white);
-  position: relative; 
-top:5rem;
-right:0.1rem;
+  color: var(--white);
+  position: relative;
+  top: 5rem;
+  right: 0.1rem;
 }
 
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   color: var(--white);
-  position: relative; 
-top:5rem;
-right:0.1rem;
+  position: relative;
+  top: 5rem;
+  right: 0.1rem;
 }
-
 
 /* Headings */
 
@@ -242,52 +229,44 @@ right:0.1rem;
   height: 2px;
   max-width: 100px;
   background: var(--orange-dark);
-
 }
-
 
 /* Article */
 
 .article {
   margin-bottom: 1rem;
-  border:0.13rem solid var(--grey-light);
+  border: 0.13rem solid var(--grey-light);
   border-radius: 0.3rem;
   padding-top: 2.5rem;
   width: 20.5rem;
   position: relative;
-  bottom:2rem;
+  bottom: 2rem;
 }
 
-
-.article1{ border:0.13rem solid var(--grey-light);
-  padding:1rem;
+.article1 {
+  border: 0.13rem solid var(--grey-light);
+  padding: 1rem;
   width: 20.9rem;
   position: relative;
   bottom: 2.12rem;
   border-radius: 0.3rem;
 }
- 
 
-
-
-.article2{ border:0.13rem solid  var(--grey-light);
-  padding:1rem;
+.article2 {
+  border: 0.13rem solid var(--grey-light);
+  padding: 1rem;
   width: 25rem;
-  height: 10.1rem ;
-  position:relative;
-  bottom:14.4rem;
-  left:24.2rem;
+  height: 10.1rem;
+  position: relative;
+  bottom: 14.4rem;
+  left: 24.2rem;
   border-radius: 0.3rem;
 }
-
-
-
 
 .article__title {
   margin-bottom: 0.5rem;
   font-size: 1rem;
   font-weight: 700;
- 
 }
 
 .article__title-link {
@@ -301,18 +280,18 @@ right:0.1rem;
   overflow: hidden;
   margin: 1rem;
   margin-top: 0rem;
-margin-right:0rem;
-padding-right: 1.5rem;
+  margin-right: 0rem;
+  padding-right: 1.5rem;
 }
 
 .article__thumbnail {
   object-fit: contain;
   width: 5rem;
   float: left;
-  padding:1rem;
+  padding: 1rem;
   padding-bottom: 0.3rem;
   padding-top: 1.2rem;
- margin-bottom: 0rem;
+  margin-bottom: 0rem;
 }
 
 .article__read-more {
@@ -338,9 +317,9 @@ padding-right: 1.5rem;
 
 .facebook-link {
   color: var(--orange-dark);
-position:relative;
-left: 11rem;
-bottom: 2rem;
+  position: relative;
+  left: 11rem;
+  bottom: 2rem;
 }
 
 /* Sidebar */
